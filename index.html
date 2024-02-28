@@ -46,7 +46,7 @@
                     duck() {
                         this.state = !this.state;
                         this.score ++
-                        new Audio("/assets/sound/075176_duck-quack-40345.mp3").play();
+                        new Audio("./assets/sound/075176_duck-quack-40345.mp3").play();
                         if (this.state) {
                             this.$refs['duck'].src = "./assets/false.png";
                         }
